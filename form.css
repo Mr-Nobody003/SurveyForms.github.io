@@ -6,7 +6,10 @@ h1{
    text-align: center;
    justify-content: center;
 }
-
+hr{
+    height: 2px;
+    background-color: gold;
+}
 .container{
     background-color:black;
     color:white ;
