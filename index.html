@@ -11,99 +11,122 @@
   <h1>Servey Form</h1>
   <hr>
 </header>
+
 <body>
-  <form  action="post" class="container">
-    <div class="name">
-      <label for="username">NAME</label><br>
-      <input type="text" name="username" style="background-color: black;color: white;" autofocus>    </div>
-    <br>
-    <br>
-    <br>
-    <div class="age">
-      <label for="age">AGE</label><br>
-      <input type="number" name="age" style="background-color: black;color: white;" autofocus>
-    </div>
-    <br>
-    <br>
-    <br>
-    <div class="number">
-      <label for="number">Phone Number</label><br>
-      <input type="number" name="number" id="num" style="background-color: black;color: white;">
-    </div>
-    <br>
-    <br>
-    <br>
-    <div class="gender">
-      <label for="gender">Select Gender</label><br>
-      <input type="radio" id="male" name="gender" value="male">
-      <label for="male">MALE</label><br>
-      <input type="radio" id="female" name="gender" value="female">
-      <label for="female">FEMALE</label><br>
-      <input type="radio" id="other" name="gender" value="other">
-      <label for="other">Helicopter</label>
-    </div>
-    <br>
-    <br>
-    <br>
-    <div class="language">
-      <label for="language">Select the languages you preffer</label>
+  <div class="container">
+    <form  class="formbox">
       <br>
-      <input type="checkbox" id="Assembly" name="language" value="yes">
-      <label for="Assembly">Assembly x86</label>
       <br>
-      <input type="checkbox" id="c" name="language" value="yes">
-      <label for="c">C</label>
+      <div class="name">
+        <label for="username">NAME</label><br>
+        <input type="text" name="username" style="background-color: black; color: white;" autofocus id="name" size="70" required>
+      </div>
       <br>
-      <input type="checkbox" id="c++" name="language" value="yes">
-      <label for="c++">C++</label>
       <br>
-      <input type="checkbox" id="java" name="language" value="yes">
-      <label for="java">Java</label>
       <br>
-      <input type="checkbox" id="javascript" name="language" value="yes">
-      <label for="javascript">JavaScript</label>
+      <div class="age">
+        <label for="age">AGE(optional)</label><br>
+        <input type="number" name="age" style="background-color: black; color: white;" autofocus id="age" size="70">
+      </div>
       <br>
-      <input type="checkbox" id="py" name="language" value="yes">
-      <label for="py">python</label>
-    </div>
-    <br>
-    <br>
-    <br>
-    <div class="future">
-      <label for="Future">what is your future planing in IT sector</label>
-      <select name="Future">
-        <option value="null" ></option>
-        <option value="web">WEB Development</option>
-        <option value="ml">Machine Learning</option>
-        <option value="Android">Android development</option>
-      </select>
-    </div>
-    <br>
-    <br>
-    <br>
-  </form>
-  <div class="comment">
-    <label for="comment">Enter Feedback</label>
-    <br>
-    <textarea name="comment" rows="4" cols="50">Enter your comment here...
-    </textarea>
+      <br>
+      <br>
+      <div class="number">
+        <label for="number">Phone Number</label><br>
+        <input type="number" name="number" id="num" style="background-color: black; color: white;" size="70">
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="Email">
+        <label for="Email">EMAIL ADDRESS</label><br>
+        <input type="email" name="Email" style="background-color: black;color: white;" autofocus id="name" size="70" required>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="gender">
+        <label for="gender">Select Gender</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">MALE</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">FEMALE</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Helicopter</label><br>
+        <input type="radio" id="bin" name="gender" value="bin">
+        <label for="bin">Computer</label>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="language">
+        <label for="language">Select the languages you preffer</label>
+        <br>
+        <input type="checkbox" id="Assembly" name="language" value="yes">
+        <label for="Assembly">Assembly x86</label>
+        <br>
+        <input type="checkbox" id="c" name="language" value="yes">
+        <label for="c">C</label>
+        <br>
+        <input type="checkbox" id="c++" name="language" value="yes">
+        <label for="c++">C++</label>
+        <br>
+        <input type="checkbox" id="java" name="language" value="yes">
+        <label for="java">Java</label>
+        <br>
+        <input type="checkbox" id="javascript" name="language" value="yes">
+        <label for="javascript">JavaScript</label>
+        <br>
+        <input type="checkbox" id="py" name="language" value="yes">
+        <label for="py">python</label>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="future">
+        <label for="Future">what is your future planing in IT sector <br></label>
+        <select name="Future" style="background-color: black; color: aliceblue;" size="1" class="selbox">
+          <option value="null"></option>
+          <option value="web" style="background-color:black;color: white;">WEB Development</option>
+          <option value="ml" style="background-color: black; color: white;">Machine Learning</option>
+          <option value="Android" style="background-color:black;color: white;">Android development</option>
+          <option value="cp" style="background-color: black;color: white;">Competitive Programing</option>
+          <option value="cb" style="background-color: black;color: white;">Cyber Security</option>
+          <option value="cg" style="background-color: black;color: white;">Cryptography</option>
+        </select>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="comment">
+        <label for="comment">Enter Feedback</label>
+        <br>
+        <textarea name="comment" rows="4" cols="70" style="background-color: black;color: white;">
+      </textarea>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="submit">
+        <button >
+          <input type="submit" value="Submit" class="submit">
+        </button>
+        <br>
+        <br>
+        <br>
+      </div>
+    </form>
   </div>
-  <br>
-  <br>
-  <br>
-  <div class="submit">
-    <button>
-  <input type="submit" value="Submit" class="submit">
-    </button>
- </div>
 </body>
 <footer>
   <hr>
+  <br>
   <p>© 2024 Margan Das. All rights reserved.</p><br>
-<p>
-JoyNagar,Agartala,Tripura,India <br>
-Phone: 9866571471 <br>
-Email: margandas03@gmail.com <br>
-</p>
+  <p>
+    JoyNagar,Agartala,Tripura,India <br>
+    Phone: 9866571471 <br>
+    Email: margandas03@gmail.com <br>
+  </p>
 </footer>
+
 </html>
