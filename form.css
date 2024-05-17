@@ -23,7 +23,7 @@ hr{
    width: 520px;
    padding-left: 30%;
    padding-right: 30%;
-   box-shadow: 10px 10px 10px 10px grey;
+   box-shadow: 1px 1px 10px 10px gold;
 }
 input[type='number']{
     width: 520px;
