@@ -26,14 +26,14 @@
       <br>
       <div class="age">
         <label for="age">AGE(optional)</label><br>
-        <input type="number" name="age" style="background-color: black; color: white;" autofocus id="age" size="70">
+        <input type="number" name="age" style="background-color: black; color: white;" autofocus id="age" size="70" required>
       </div>
       <br>
       <br>
       <br>
       <div class="number">
         <label for="number">Phone Number</label><br>
-        <input type="number" name="number" id="num" style="background-color: black; color: white;" size="70">
+        <input type="number" name="number" id="num" style="background-color: black; color: white;" size="70" required>
       </div>
       <br>
       <br>
@@ -85,14 +85,14 @@
       <br>
       <div class="future">
         <label for="Future">what is your future planing in IT sector <br></label>
-        <select name="Future" style="background-color: black; color: aliceblue;" size="1" class="selbox">
+        <select name="Future" style="background-color: black; color: aliceblue;" size="1" class="selbox" required>
           <option value="null"></option>
-          <option value="web" style="background-color:black;color: white;">WEB Development</option>
-          <option value="ml" style="background-color: black; color: white;">Machine Learning</option>
-          <option value="Android" style="background-color:black;color: white;">Android development</option>
-          <option value="cp" style="background-color: black;color: white;">Competitive Programing</option>
-          <option value="cb" style="background-color: black;color: white;">Cyber Security</option>
-          <option value="cg" style="background-color: black;color: white;">Cryptography</option>
+          <option value="web" style="background-color:black;color:white;">WEB Development</option>
+          <option value="ml" style="background-color: black; color:white;">Machine Learning</option>
+          <option value="Android" style="background-color:black;color:white;">Android development</option>
+          <option value="cp" style="background-color: black;color:white;">Competitive Programing</option>
+          <option value="cb" style="background-color: black;color:white;">Cyber Security</option>
+          <option value="cg" style="background-color: black;color:white;">Cryptography</option>
         </select>
       </div>
       <br>
@@ -108,7 +108,7 @@
       <br>
       <br>
       <div class="submit">
-        <button >
+        <button onclick="alert('Response Submitted')" >
           <input type="submit" value="Submit" class="submit">
         </button>
         <br>
