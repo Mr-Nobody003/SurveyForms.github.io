@@ -1,0 +1,32 @@
+body{
+    background-color:black;
+    color: aliceblue;
+}
+h1{
+   text-align: center;
+}
+
+.container{
+    background-color:black;
+    color:white ;
+    padding-left: 45%;
+    padding-top: 50px;
+    padding-right: 40%;
+}
+.comment{
+    padding-left:40%;
+    padding-right: 40%;
+}
+.submit{
+    padding-left: 45%;
+    padding-right: 45%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color:white;
+    background-color: black;
+}
+footer{
+    text-align: center;
+}
+
