@@ -38,7 +38,7 @@ input[type='submit']{
 .selbox{
     width:520px;
 }
-#check{
+button#check{
     box-shadow: 1px 1px 5px 5px gold;
     background-color: black;
     color: black;
