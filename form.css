@@ -4,29 +4,44 @@ body{
 }
 h1{
    text-align: center;
+   justify-content: center;
 }
 
 .container{
     background-color:black;
     color:white ;
-    padding-left: 45%;
     padding-top: 50px;
-    padding-right: 40%;
+    padding-bottom: 50px;
+    width: 520px;
+    padding-left:22%;
+    padding-right:25%;
 }
-.comment{
-    padding-left:40%;
-    padding-right: 40%;
+.formbox{
+   width: 520px;
+   padding-left: 30%;
+   padding-right: 30%;
+   box-shadow: 10px 10px 10px 10px grey;
+}
+input[type='number']{
+    width: 520px;
+}
+input[type='text']{
+    width: 520px;
+} 
+input[type='submit']{
+    height: 40px;
+
+} 
+.selbox{
+    width:520px;
 }
 .submit{
-    padding-left: 45%;
-    padding-right: 45%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
     color:white;
     background-color: black;
+    text-align: center;
 }
 footer{
     text-align: center;
+    justify-content: center;
+    height: 200px;
 }
-
